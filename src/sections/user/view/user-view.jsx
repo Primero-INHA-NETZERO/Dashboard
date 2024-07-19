@@ -122,12 +122,12 @@ export default function UserPage() {
                 onRequestSort={handleSort}
                 onSelectAllClick={handleSelectAllClick}
                 headLabel={[
-                  { id: 'name', label: 'Name' },
-                  { id: 'company', label: 'Company' },
-                  { id: 'role', label: 'Role' },
-                  { id: 'isVerified', label: 'Verified', align: 'center' },
-                  { id: 'status', label: 'Status' },
-                  { id: '' },
+                  { id: 'customerName', label: '고객 이름' },
+                  { id: 'orderNumber', label: '주문 번호' },
+                  { id: 'contactNumber', label: '주문 현황' },
+                  { id: 'orderType', label: '문제 발생', align: 'center' }, // 배달 또는 픽업
+                  { id: 'orderTime', label: '주문 시간' },
+                  { id: 'deliveryStatus', label: '편집', align: 'center' },
                 ]}
               />
               <TableBody>
